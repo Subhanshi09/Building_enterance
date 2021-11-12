@@ -1,0 +1,17 @@
+body{
+    background-color:#a8dadc;
+}
+#enter{
+    margin-left: 480px;
+    margin-top: 300px;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+#records{
+    
+    margin-top:300px ;
+    border-radius: 10px;
+    width:200px;
+    height:50px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>all records</h1>
+    <table>
+        <% for(let i of employees){%>
+            
+            <tr>
+                <td><strong>Name</strong></td><td><%= i.name %> </td>
+            </tr> 
+            <tr>
+                <td><strong>Email:</strong></td><td><%=i.email%></td>
+                </tr>
+                <tr>
+                    <td><strong>Phone</strong></td><td><%=i.phone%></td>
+            </tr>
+            <% } %> 
+                
+    </table>
+    
+</body>
+</html>

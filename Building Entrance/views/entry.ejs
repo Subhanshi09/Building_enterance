@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/entry.css">
+</head>
+<body>
+
+    <h2>Fill your details</h2>
+    <form action="/statuss" method="POST">
+        <fieldset>
+            <label for="name">Enter Name</label>
+            <input type="text" name="name" id="id" required>
+            <br><br><label for="email">Enter Email</label>
+            <input type="email" name="email" id="email" required>
+            <br><br><label  for="phone">Enter Phone Number</label>
+            <input type="text" name="phone" id="phone">
+            <br><br><label for="hrs">Enter time(IN 24 HRS FORMAT)</label>
+            <input type="number" name="cinh" id="cinh" min="0" max="23" required>
+            <input type="number" name="cinm" id="cinm" min="0" max="59" required>
+            <br><br><button type="submit" id="submit">Submit</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
